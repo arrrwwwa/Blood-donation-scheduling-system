@@ -4,8 +4,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $name = "Ali";
-        $age = 20;
+        $name = "Arwa";
+        $age = 19;
 
         $this->view("home/index", [
             'name' => $name,
