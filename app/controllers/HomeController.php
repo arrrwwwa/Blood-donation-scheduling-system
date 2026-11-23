@@ -4,7 +4,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $name = "Arwa";
+        $name = "Ali";
         $age = 20;
 
         $this->view("home/index", [
